@@ -1,54 +1,62 @@
 import React from 'react';
 import {FlatList, SafeAreaView, StyleSheet, View} from 'react-native';
-import {Card, Text, TouchableRipple} from 'react-native-paper';
 import TypeNavigation from '../../interfaces/TypeNavigation';
+import Item from './Item';
+import useController from './useController';
 
 // Import list of data region
 import dataRegion from '../../data/region.json';
-import useController from './useController';
+import ModalDetail from './ModalDetail';
+
+const ITEM_HEIGHT = 100;
 
 export default function HomeScreen(props: TypeNavigation) {
-  const {onGoMap} = useController(props);
+  const {modal, showModal, closeModal, onGoMap, onGoLink} =
+    useController(props);
 
   // Card Item
   const renderItem = ({item}: {item: (typeof dataRegion.region)[0]}) => (
-    <TouchableRipple
-      onPress={onGoMap(item)}
-      rippleColor="rgba(0, 0, 0, .32)"
-      style={s.card}>
-      <Card>
-        <Card.Cover source={{uri: item?.logo}} />
-        <Card.Content>
-          <Text variant="titleMedium">{item?.name}</Text>
-        </Card.Content>
-      </Card>
-    </TouchableRipple>
+    <Item item={item} onPress={showModal(item)} />
   );
 
   const renderFooter = () => <View style={s.emptyFooter} />;
 
+  const getItemLayout = (__: any, index: number) => ({
+    length: ITEM_HEIGHT,
+    offset: ITEM_HEIGHT * index,
+    index,
+  });
+
   return (
-    <SafeAreaView>
-      {/* Create list for showing data region */}
-      <FlatList
-        key="region_list"
-        numColumns={2}
-        data={dataRegion?.region ?? []}
-        keyExtractor={(_item, index) => index.toString()}
-        renderItem={renderItem}
-        contentContainerStyle={s.contentContainerStyle}
-        columnWrapperStyle={s.columnWrapperStyle}
-        ListFooterComponent={renderFooter}
+    <>
+      <SafeAreaView>
+        {/* Create list for showing data region */}
+        <FlatList
+          key="region_list"
+          numColumns={2}
+          data={dataRegion?.region ?? []}
+          keyExtractor={(_item, index) => index.toString()}
+          renderItem={renderItem}
+          contentContainerStyle={s.contentContainerStyle}
+          columnWrapperStyle={s.columnWrapperStyle}
+          ListFooterComponent={renderFooter}
+          removeClippedSubviews
+          getItemLayout={getItemLayout}
+        />
+      </SafeAreaView>
+
+      {/* Modal show detail */}
+      <ModalDetail
+        data={modal}
+        onDismiss={closeModal}
+        onGoMap={onGoMap}
+        onGoLink={onGoLink}
       />
-    </SafeAreaView>
+    </>
   );
 }
 
 const s = StyleSheet.create({
-  card: {
-    width: '47.5%',
-    marginBottom: 20,
-  },
   contentContainerStyle: {
     marginTop: 20,
   },

@@ -1,15 +1,120 @@
 {
   "region": [
     {
-      "name": "Banten",
+      "name": "Aceh",
+      "address_office": "JL. T. Nyak Arief No.219, Banda Aceh (23114)",
+      "address_web": "www.acehprov.go.id",
+      "telp_fax": "T: (0651)-7551377\nF: (0651)-7552307,  7555516, 7555518, 7553048",
       "coordinate": {
-        "latitude": -6.4058,
-        "longitude": 106.0640
+        "latitude": 4.2251,
+        "longitude": 96.1256
       },
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coat_of_arms_of_Banten.svg/228px-Coat_of_arms_of_Banten.svg.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Coat_of_arms_of_Aceh.svg/235px-Coat_of_arms_of_Aceh.svg.png"
     },
     {
-      "name": "DKI Jakarta",
+      "name": "Sumatera Utara",
+      "address_office": "JL. Pangeran Diponegoro No.30, Medan (20152)",
+      "address_web": "http://www.sumutprov.go.id/",
+      "telp_fax": "T: (061)-4567611\nF: (061)-456711, 520111, 4535449",
+      "coordinate": {
+        "latitude": 2.1157,
+        "longitude": 99.5451
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Coat_of_arms_of_North_Sumatra.svg/192px-Coat_of_arms_of_North_Sumatra.svg.png"
+    },
+    {
+      "name": "Sumatera Barat",
+      "address_office": "JL. Jenderal Sudirman No.51, Padang",
+      "address_web": "https://www.sumbarprov.go.id/",
+      "telp_fax": "(0751)-31401, 31402, 34425",
+      "coordinate": {
+        "latitude": -0.8667,
+        "longitude": 100.7667
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Coat_of_arms_of_West_Sumatra.svg/210px-Coat_of_arms_of_West_Sumatra.svg.png"
+    },
+    {
+      "name": "Riau",
+      "address_office": "JL. Jenderal Sudirman No.460, Pekanbaru, Riau (28156)",
+      "address_web": "https://www.riau.go.id/home/",
+      "telp_fax": "(0761)-47367, 47368",
+      "coordinate": {
+        "latitude": 0.5121,
+        "longitude": 101.4381
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Coat_of_arms_of_Riau.svg/335px-Coat_of_arms_of_Riau.svg.png"
+    },
+    {
+      "name": "Jambi",
+      "address_office": "JL. Jenderal A. Yani No.1 Talanai Pura Jambi (36128)",
+      "address_web": "http://jambiprov.go.id/v2/",
+      "telp_fax": "(0741)-66269",
+      "coordinate": {
+        "latitude": -1.4852,
+        "longitude": 102.4381
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_arms_of_Jambi.svg/231px-Coat_of_arms_of_Jambi.svg.png"
+    },
+    {
+      "name": "Sumatera Selatan",
+      "address_office": "Jln. Kapten A. Rifai No. 1, Palembang",
+      "address_web": "http://www.sumselprov.go.id/",
+      "telp_fax": "(0711)-352105",
+      "coordinate": {
+        "latitude": -3.3194,
+        "longitude": 104.9140
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_South_Sumatra.svg/394px-Coat_of_arms_of_South_Sumatra.svg.png"
+    },
+    {
+      "name": "Bengkulu",
+      "address_office": "JL. Pembangunan  No. 1, Bengkulu (38225)",
+      "address_web": "https://bengkuluprov.go.id/",
+      "telp_fax": "(0736)-21502",
+      "coordinate": {
+        "latitude": -3.7928,
+        "longitude": 102.2609
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Coat_of_arms_of_Bengkulu.svg/380px-Coat_of_arms_of_Bengkulu.svg.png"
+    },
+    {
+      "name": "Lampung",
+      "address_office": "JL. Wolter Monginsidi No. 69, Teluk Betung, Bandar Lampung",
+      "address_web": "http://www.lampungprov.go.id/",
+      "telp_fax": "(0721)-481166",
+      "coordinate": {
+        "latitude": -4.5586,
+        "longitude": 105.4068
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coat_of_arms_of_Lampung.svg/289px-Coat_of_arms_of_Lampung.svg.png"
+    },
+    {
+      "name": "Bangka Belitung",
+      "address_office": "Komplek Perkantoran Terpadu, Jalan Pulau Bangka, Air Itam,\nPangkalpinang 33149",
+      "address_web": "http://babelprov.go.id/",
+      "telp_fax": "(0717)-4262141,  4262142",
+      "coordinate": {
+        "latitude": -2.7410,
+        "longitude": 106.4406
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_arms_of_Bangka_Belitung_Islands.svg/335px-Coat_of_arms_of_Bangka_Belitung_Islands.svg.png"
+    },
+    {
+      "name": "Kepulauan Riau",
+      "address_office": "Pulau Dompak Jl. Basuki Rahmat Tanjung Pinang",
+      "address_web": "https://www.kepriprov.go.id/",
+      "telp_fax": "(0771)-4575000",
+      "coordinate": {
+        "latitude": 3.9456,
+        "longitude": 108.1429
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Coat_of_arms_of_Riau_Islands.svg/449px-Coat_of_arms_of_Riau_Islands.svg.png"
+    },
+    {
+      "name": "D.K.I Jakarta",
+      "address_office": "JL. Medan Merdeka Selatan No.8-9, Jakarta Pusat (10110)",
+      "address_web": "https://www.jakarta.go.id/",
+      "telp_fax": "(021)-3456058",
       "coordinate": {
         "latitude": -6.2088,
         "longitude": 106.8456
@@ -18,14 +123,20 @@
     },
     {
       "name": "Jawa Barat",
+      "address_office": "Gedung Sate Jl. Diponegoro No.22, Citarum\nBandung Wetan, Kota Bandung, Jawa Barat (40115)",
+      "address_web": "http://www.jabarprov.go.id",
+      "telp_fax": "(022)-423248, 4233347, 4230993",
       "coordinate": {
-        "latitude": -7.0909,
-        "longitude": 107.6689
+        "latitude": -6.9202,
+        "longitude": 107.7170
       },
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Coat_of_arms_of_West_Java.svg/206px-Coat_of_arms_of_West_Java.svg.png"
     },
     {
       "name": "Jawa Tengah",
+      "address_office": "JL. Pahlawan No.9, Semarang (50249)",
+      "address_web": "https://jatengprov.go.id/",
+      "telp_fax": "(024)-8415548 / 8453676",
       "coordinate": {
         "latitude": -7.1509,
         "longitude": 110.1403
@@ -33,7 +144,10 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coat_of_arms_of_Central_Java.svg/224px-Coat_of_arms_of_Central_Java.svg.png"
     },
     {
-      "name": "DI Yogyakarta",
+      "name": "D.I Yogyakarta",
+      "address_office": "JL. Malioboro No.16, Suryatmajan, Komplek Kepatihan\nDanurejan, Kota Yogyakarta (55213)",
+      "address_web": "https://www.jogjaprov.go.id/",
+      "telp_fax": "(0274)-562811,  512655",
       "coordinate": {
         "latitude": -7.7956,
         "longitude": 110.3695
@@ -42,11 +156,223 @@
     },
     {
       "name": "Jawa Timur",
+      "address_office": "JL. Pahlawan No.110, Alun-alun Contong, Kota Surabaya (60174)",
+      "address_web": "http://www.jatimprov.go.id/",
+      "telp_fax": "(031)-20005, 20044, 3557141",
       "coordinate": {
         "latitude": -7.5361,
         "longitude": 112.2384
       },
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Coat_of_arms_of_East_Java.svg/426px-Coat_of_arms_of_East_Java.svg.png"
+    },
+    {
+      "name": "Banten",
+      "address_office": "Kawasan Pusat Pemerintah Provinsi Banten, Jl. Syech Nawawi\nAl-bantani No. 1, Sukajaya, Curug, Kota Serang, Banten (42111)",
+      "address_web": "https://bantenprov.go.id/",
+      "telp_fax": "(0254)-200123",
+      "coordinate": {
+        "latitude": -6.4058,
+        "longitude": 106.0640
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coat_of_arms_of_Banten.svg/228px-Coat_of_arms_of_Banten.svg.png"
+    },
+    {
+      "name": "Bali",
+      "address_office": "JL. Basuki Rahmat No. 1, Denpasar",
+      "address_web": "http://www.baliprov.go.id",
+      "telp_fax": "(0361)-224671,  35155",
+      "coordinate": {
+        "latitude": -8.3405,
+        "longitude": 115.0920
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Coat_of_arms_of_Bali.svg/252px-Coat_of_arms_of_Bali.svg.png"
+    },
+    {
+      "name": "Nusa Tenggara Barat",
+      "address_office": "JL. Pejanggik No.12, Pejanggik, Kec. Mataram, Kota Mataram\nNusa Tenggara Barat (83122)",
+      "address_web": "https://www.ntbprov.go.id/",
+      "telp_fax": "(0370)-31000, 622373, 622833",
+      "coordinate": {
+        "latitude": -8.6529,
+        "longitude": 117.3611
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Coat_of_arms_of_West_Nusa_Tenggara.svg/335px-Coat_of_arms_of_West_Nusa_Tenggara.svg.png"
+    },
+    {
+      "name": "Nusa Tenggara Timur",
+      "address_office": "JL. El Tari No.52, Oebobo, Kota Kupang, NTT (85111)",
+      "address_web": "http://nttprov.go.id/ntt2016/",
+      "telp_fax": "(0380)-833111,  833247",
+      "coordinate": {
+        "latitude": -8.6574,
+        "longitude": 121.0794
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Coat_of_Arms_of_East_Nusa_Tenggara_NEW.png/227px-Coat_of_Arms_of_East_Nusa_Tenggara_NEW.png"
+    },
+    {
+      "name": "Kalimantan Barat",
+      "address_office": "JL. Ahmad Yani, Pontianak (78124)",
+      "address_web": "http://kalbarprov.go.id/",
+      "telp_fax": "(0561)-736541,  732001 ext. 110",
+      "coordinate": {
+        "latitude": -0.0222,
+        "longitude": 109.3307
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coat_of_arms_of_West_Kalimantan.svg/335px-Coat_of_arms_of_West_Kalimantan.svg.png"
+    },
+    {
+      "name": "Kalimantan Tengah",
+      "address_office": "JL. RTA Milono No.1, Menteng, Jekan Raya, Kota Palangka Raya\nKalimantan Tengah (73111)",
+      "address_web": "http://www.kalteng.go.id/",
+      "telp_fax": "(0536)-21144 - 21214, 3221538",
+      "coordinate": {
+        "latitude": -1.6815,
+        "longitude": 113.3824
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_Central_Kalimantan.svg/359px-Coat_of_arms_of_Central_Kalimantan.svg.png"
+    },
+    {
+      "name": "Kalimantan Selatan",
+      "address_office": "JL. Aneka Tambang, Trikora, Palam, Cempaka\nKota Banjar Baru, Kalimantan Selatan (70114)",
+      "address_web": "http://kalselprov.go.id/",
+      "telp_fax": "(0511)- 3363845, 3352667",
+      "coordinate": {
+        "latitude": -3.0926,
+        "longitude": 115.2838
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_arms_of_South_Kalimantan.svg/429px-Coat_of_arms_of_South_Kalimantan.svg.png"
+    },
+    {
+      "name": "Kalimantan Timur",
+      "address_office": "Jalan Gadjah Mada No. 1, Kota Samarinda, Kaltim (75242)",
+      "address_web": "http://www.kaltimprov.go.id/",
+      "telp_fax": "(0541)-32555, 733333, 741942, 744001",
+      "coordinate": {
+        "latitude": 0.3476,
+        "longitude": 116.5300
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_East_Kalimantan.svg/196px-Coat_of_arms_of_East_Kalimantan.svg.png"
+    },
+    {
+      "name": "Kalimantan Utara",
+      "address_office": "JL. Kol. Soetadji No.1, Tanjung Selor Hilir, Tanjung Selor\nKabupaten Bulungan, Kalimantan Utara (77212)",
+      "address_web": "https://kaltaraprov.go.id/",
+      "telp_fax": "(0552) - 22454",
+      "coordinate": {
+        "latitude": 2.9403,
+        "longitude": 117.6694
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Coat_of_arms_of_North_Kalimantan_%282021_version%29.svg/179px-Coat_of_arms_of_North_Kalimantan_%282021_version%29.svg.png"
+    },
+    {
+      "name": "Sulawesi Utara",
+      "address_office": "JL. 17 Agustus No.69, Teling Atas, Wanea, Kota Manado",
+      "address_web": "http://www.sulutprov.go.id/",
+      "telp_fax": "(0431)-865559,  86200, 865437, 861630",
+      "coordinate": {
+        "latitude": 0.6247,
+        "longitude": 123.9750
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Coat_of_arms_of_North_Sulawesi.svg/335px-Coat_of_arms_of_North_Sulawesi.svg.png"
+    },
+    {
+      "name": "Sulawesi Tengah",
+      "address_office": "Jalan Samratulangi No.101, Besusu Barat, Palu Timur\nKota Palu, Sulawesi Tengah (94118)",
+      "address_web": "http://www.sultengprov.go.id/",
+      "telp_fax": "(0451) - 451311",
+      "coordinate": {
+        "latitude": -1.4300,
+        "longitude": 121.4457
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Coat_of_arms_of_Central_Sulawesi.svg/374px-Coat_of_arms_of_Central_Sulawesi.svg.png"
+    },
+    {
+      "name": "Sulawesi Selatan",
+      "address_office": "JL. Urip Sumoharjo No.269, Panaikang, Panakkukang\nKota Makassar, Sulawesi Selatan (90231)",
+      "address_web": "https://sulselprov.go.id/",
+      "telp_fax": "(0411) - 453192, 45320",
+      "coordinate": {
+        "latitude": -4.7606,
+        "longitude": 119.9741
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Coat_of_arms_of_South_Sulawesi.svg/196px-Coat_of_arms_of_South_Sulawesi.svg.png"
+    },
+    {
+      "name": "Sulawesi Tenggara",
+      "address_office": "Komp Bumi Praja Andonuhu Kota Kendari Sultra, Anduonohu\nPoasia, Kota Kendari, Sulawesi Tenggara (93231)",
+      "address_web": "http://www.sultraprov.go.id/",
+      "telp_fax": "(0401)-391617,  391609",
+      "coordinate": {
+        "latitude": -4.1449,
+        "longitude": 122.1746
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Coat_of_arms_of_Southeast_Sulawesi.svg/250px-Coat_of_arms_of_Southeast_Sulawesi.svg.png"
+    },
+    {
+      "name": "Gorontalo",
+      "address_office": "JL. Sapta Marga, Botu, Dombo Raya, Gorontalo (96134)",
+      "address_web": "https://www.gorontaloprov.go.id/",
+      "telp_fax": "(0435) - 821277",
+      "coordinate": {
+        "latitude": 0.6999,
+        "longitude": 122.4467
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coat_of_arms_of_Gorontalo.svg/214px-Coat_of_arms_of_Gorontalo.svg.png"
+    },
+    {
+      "name": "Sulawesi Barat",
+      "address_office": "Kompleks Perkantoran Gubernur, Jl. Abdul Malik Pattana\nEndeng, Rangas, Mamuju, Sulawesi Barat (91512)",
+      "address_web": "http://www.sulbarprov.go.id/",
+      "telp_fax": "(0426) - 22680, 22677",
+      "coordinate": {
+        "latitude": -2.8361,
+        "longitude": 119.2321
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Coat_of_arms_of_West_Sulawesi.svg/216px-Coat_of_arms_of_West_Sulawesi.svg.png"
+    },
+    {
+      "name": "Maluku",
+      "address_office": "JL. Dr. Latumeten, No.12 - Ambon",
+      "address_web": "http://www.malukuprov.go.id/",
+      "telp_fax": "(0911) - 342460",
+      "coordinate": {
+        "latitude": -3.2385,
+        "longitude": 130.1453
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Coat_of_arms_of_Maluku.svg/252px-Coat_of_arms_of_Maluku.svg.png"
+    },
+    {
+      "name": "Maluku Utara",
+      "address_office": "JL. Trans Halmahera, Gosale Puncak, Oba Utara, Sofifi\nOba Utara, Kota Tidore Kepulauan, Maluku Utara",
+      "address_web": "http://www.malutprov.go.id/",
+      "telp_fax": "(0921) - 21044",
+      "coordinate": {
+        "latitude": 1.6032,
+        "longitude": 127.8088
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Coat_of_arms_of_North_Maluku.svg/209px-Coat_of_arms_of_North_Maluku.svg.png"
+    },
+    {
+      "name": "Papua",
+      "address_office": "JL. Soa Sio Dok, Jayapura (99115)",
+      "address_web": "https://papua.go.id/",
+      "telp_fax": "(0967) - 537523",
+      "coordinate": {
+        "latitude": -4.2699,
+        "longitude": 138.0804
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Papua_2.svg/208px-Coat_of_arms_of_Papua_2.svg.png"
+    },
+    {
+      "name": "Papua Barat",
+      "address_office": "JL.Siliwangi No.1 Manokwari (98315)",
+      "address_web": "https://papuabaratprov.go.id/",
+      "telp_fax": "(0986) - 211719",
+      "coordinate": {
+        "latitude": -1.3361,
+        "longitude": 133.1747
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_West_Papua.svg/365px-Coat_of_arms_of_West_Papua.svg.png"
     }
   ]
 }
