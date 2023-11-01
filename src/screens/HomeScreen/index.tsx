@@ -3,10 +3,10 @@ import {FlatList, SafeAreaView, StyleSheet, View} from 'react-native';
 import TypeNavigation from '../../interfaces/TypeNavigation';
 import Item from './Item';
 import useController from './useController';
+import ModalDetail from './ModalDetail';
 
 // Import list of data region
 import dataRegion from '../../data/region.json';
-import ModalDetail from './ModalDetail';
 
 const ITEM_HEIGHT = 100;
 
