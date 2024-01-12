@@ -9,3 +9,5 @@ This project is created for answer and source code of ujian mobile programming (
 - NodeJS v.18.x +
 - Yarn v.1.x
 - Android Studio (for android development)
+
+NOTHING CHANGED UNTIL HERE...
